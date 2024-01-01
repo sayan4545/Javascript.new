@@ -27,3 +27,26 @@ function loggedInMessage(username){
 }
 
 console.log(loggedInMessage());
+//passing multiple values to a function
+
+function addCartPrice(...num1){
+    return num1;
+}
+console.log(addCartPrice(200,288,100));//The output will be an array
+
+const user ={
+    username:"Sayan Chatterjee",
+    email: "sayanchatterjee3010@gmail.com"
+}
+
+function handleObject(anyObject){
+    return `user name is ${anyObject.username} and email id is ${anyObject.username}`;
+}
+
+console.log(handleObject(user));
+
+const myArr =[200,300,400];
+function getArray(arr){
+    return arr[1];
+}
+console.log(getArray(myArr));
