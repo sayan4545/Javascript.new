@@ -4,10 +4,17 @@ tinderUser.id = "123abc";
 tinderUser.displayName ="Sayan";
 tinderUser.loggedIn = true;
 tinderUser.fullName ={
-    firstName :"Sayan",
-    lastName :"Chatterjee"
+    userName:{
+        firstName:"Sayan",
+        lastName:"Chatterjee"
+    }
 }
-console.log(tinderUser.fullName.firstName);
-console.log(typeof tinderUser.fullName);
-console.log(typeof tinderUser.loggedIn);
+// tinderUser.fullName ={
+//     firstName :"Sayan",
+//     lastName :"Chatterjee"
+// }
+// console.log(tinderUser.fullName.firstName);
+// console.log(typeof tinderUser.fullName);
+// console.log(typeof tinderUser.loggedIn);
+console.log(tinderUser.fullName.userName.firstName);
 
