@@ -24,7 +24,7 @@ const one =()=>{
 one();
 
 //arrow function to add two numbers
-const addTwonums =(num1,num2)=>(Number(num1)+Number(num2));
+const addTwonums =(num1,num2)=>(Number(num1)+Number(num2));//this is implicit return.return keyword is not required in this case.
 console.log(addTwonums(3,4));
 
 const example=()=>{
